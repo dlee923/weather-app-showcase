@@ -16,7 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        if NSUserDefaults.standardUserDefaults().valueForKey("savedCity") != nil {
+            
+            rootVC = (NSUserDefaults.standardUserDefaults().valueForKey("saveKey") as? Bool)!
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let savedCityVC = storyboard.instantiateViewControllerWithIdentifier("MainVC")
+            self.window?.rootViewController = savedCityVC
+            self.window?.makeKeyAndVisible()
+        }
+        
         return true
     }
 
