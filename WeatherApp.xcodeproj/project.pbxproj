@@ -19,7 +19,6 @@
 		70D205281CD6CB99005753EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D205271CD6CB99005753EE /* AppDelegate.swift */; };
 		70D2052A1CD6CB99005753EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D205291CD6CB99005753EE /* ViewController.swift */; };
 		70D2052D1CD6CB99005753EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D2052B1CD6CB99005753EE /* Main.storyboard */; };
-		70D205301CD6CB99005753EE /* WeatherApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70D2052E1CD6CB99005753EE /* WeatherApp.xcdatamodeld */; };
 		70D205321CD6CB99005753EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70D205311CD6CB99005753EE /* Assets.xcassets */; };
 		70D205351CD6CB99005753EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D205331CD6CB99005753EE /* LaunchScreen.storyboard */; };
 		70D205401CD6CC4F005753EE /* DayWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D2053F1CD6CC4F005753EE /* DayWeather.swift */; };
@@ -208,7 +207,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70D205301CD6CB99005753EE /* WeatherApp.xcdatamodeld in Sources */,
 				70BF30811CF716DE00EDD90A /* DayCell.swift in Sources */,
 				70D205401CD6CC4F005753EE /* DayWeather.swift in Sources */,
 				70BF30871CFA098100EDD90A /* MainDay.swift in Sources */,
